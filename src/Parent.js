@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Provider } from "./Context";
-import ChildOne from "./Child";
+import Child from "./Child";
 class Parent extends Component {
   state = {
     people: [
@@ -13,8 +13,7 @@ class Parent extends Component {
   render() {
     return (
       <Provider value={this.state}>
-        <ChildOne />
-        {/* <ChildTwo /> */}
+        <Child />
       </Provider>
     );
   }
