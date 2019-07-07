@@ -4,4 +4,4 @@ This is a basic example of using React Context API.
 
 ## What you will create
 
-![alt text](/context-example.png "Context Example")
+<img src="./context-example.png" alt="context example" height="200"/>
