@@ -1,7 +1,7 @@
 import React from "react";
 import { Consumer } from "./Context";
 
-function Child() {
+function GrandChild() {
   return (
     <Consumer>
       {context => (
@@ -20,4 +20,4 @@ function Child() {
   );
 }
 
-export default Child;
+export default GrandChild;

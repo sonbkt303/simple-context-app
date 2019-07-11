@@ -1,8 +1,8 @@
 import React from "react";
 import { Consumer } from "./Context";
-import ChildTwo from "./GrandChild";
+import GrandChild from "./GrandChild";
 
-function GrandChild() {
+function Child() {
   return (
     <Consumer>
       {context => (
@@ -16,11 +16,11 @@ function GrandChild() {
             );
           })}
 
-          <ChildTwo />
+          <GrandChild />
         </div>
       )}
     </Consumer>
   );
 }
 
-export default GrandChild;
+export default Child;
