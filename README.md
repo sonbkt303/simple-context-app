@@ -2,7 +2,7 @@
 
 This is a basic example of using React Context API that I am using for my blog - TechFlip.
 
-Check it out [here](https://techflip.netlify.com/react-context-api-passing-state-to-child-components-made-easy/ "TechFlip")
+Check it out [here.](https://techflip.netlify.com/react-context-api-passing-state-to-child-components-made-easy/ "TechFlip")
 
 To run, clone the repo and type
 `npm isntall`.
